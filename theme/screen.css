@@ -1,0 +1,75 @@
+/*  CSS */
+
+@import url(http://fonts.googleapis.com/css?family=Libre+Baskerville&subset=latin,latin-ext);
+
+/* couleurs
+
+background: #ddc;
+titre color: #997;
+sous-titre: color: #bb9;
+texte: #667;
+
+*/
+
+body {
+  font-size: 1.4em;
+  font-family: 'Libre Baskerville', 'Georgia', serif;
+  padding: 1em 0;
+}
+
+article.row .header {
+  color: #557;
+}
+
+article.row .category {
+  color: #99b;
+}
+
+#text {
+  line-height: 2em;
+}
+
+#text > p:first-of-type:first-letter {
+  font-size: 3em;
+  float:left;
+  margin: 0.2em 0.2em 0.5em -1em;
+  vertical-align: text-top;
+  color: #779;
+}
+
+#text > p {
+  margin-left: 15%;
+}
+
+#text blockquote {
+  margin-left: 0;
+  color: #779;
+  font-style: oblique;
+  font-size: 1.1em;
+}
+
+#text ol, #text ul {
+  margin-left: 9%;
+}
+
+#text h2 {
+  margin-left: 5%;
+}
+
+#text h3 {
+  margin-left: 10%;
+}
+
+#text h4 {
+  margin-left: 15%;
+}
+
+footer.authors {
+  text-align: right;
+  padding: 1em;
+}
+
+/* we DONT want icons to be right floated in vertical menus */
+.ui.vertical.menu .item > i.icon {
+  float: none;
+}
